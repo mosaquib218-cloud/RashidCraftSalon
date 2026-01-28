@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rashid Hair Craft Salon - Premium Hair Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="updatestyle.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-cut logo-icon"></i>
+                <div>
+                    <div class="logo-text">Rashid <span>Hair Craft</span></div>
+                    <div class="styled-name">MOHD RASHID</div>
+                </div>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#booking">Book Appointment</a></li>
+                    <li><a href="#services">Services & Rates</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="user-controls">
+                <button class="btn btn-primary" id="userBtn">User Panel</button>
+                <button class="btn btn-secondary" id="adminBtn">Admin Login</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Experience Premium Hair Crafting</h1>
+            <p>At Rashid Hair Craft Salon, we provide exceptional hairstyling services at affordable rates. Book your appointment today for a transformative experience.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" id="bookNowBtn">Book Appointment Now</button>
+                <button class="btn btn-secondary" id="viewServicesBtn">View Services & Rates</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container main-content">
+        <!-- Services Section -->
+        <section class="services-section" id="services">
+            <h2 class="section-title">Our Services & Rates</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Haircut & Styling</h3>
+                    <p class="service-price">₹40</p>
+                    <p class="service-desc">Professional haircut with styling</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-beard"></i>
+                    </div>
+                    <h3>Beard Styling</h3>
+                    <p class="service-price">₹30</p>
+                    <p class="service-desc">Beard trim and styling</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Hair Coloring</h3>
+                    <p class="service-price">₹100</p>
+                    <p class="service-desc">Professional hair coloring</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Hair Spa</h3>
+                    <p class="service-price">₹200</p>
+                    <p class="service-desc">Relaxing hair spa treatment</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hands"></i>
+                    </div>
+                    <h3>Head Massage</h3>
+                    <p class="service-price">₹80</p>
+                    <p class="service-desc">Relaxing head massage</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Facial Kit</h3>
+                    <p class="service-price">₹700</p>
+                    <p class="service-desc">Complete facial treatment</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Full Body Massage</h3>
+                    <p class="service-price">₹400</p>
+                    <p class="service-desc">Complete body massage</p>
+                </div>
+                
+                <div class="service-card highlight-card">
+                    <div class="service-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>All Services Package</h3>
+                    <p class="service-price">₹1400</p>
+                    <p class="service-desc">Complete grooming package</p>
+                    <span class="badge">SAVE ₹350</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Booking Section -->
+        <section class="booking-section" id="booking">
+            <h2 class="section-title">Book Your Appointment</h2>
+            <div class="time-info-box">
+                <h3><i class="fas fa-clock"></i> Salon Timings</h3>
+                <div class="timing-details">
+                    <div class="timing-item">
+                        <span class="day">Monday - Thursday:</span>
+                        <span class="time">9:00 AM - 10:00 PM</span>
+                    </div>
+                    <div class="timing-item">
+                        <span class="day">Friday:</span>
+                        <span class="time closed">12:00 PM - 2:00 PM (CLOSED)</span>
+                    </div>
+                    <div class="timing-item">
+                        <span class="day">Saturday - Sunday:</span>
+                        <span class="time">9:00 AM - 10:00 PM</span>
+                    </div>
+                    <div class="timing-item">
+                        <span class="day">Lunch Break:</span>
+                        <span class="time">1:30 PM - 2:00 PM</span>
+                    </div>
+                </div>
+            </div>
+            
+            <form id="bookingForm" class="booking-form">
+                <div class="form-group">
+                    <label for="fullName">Full Name *</label>
+                    <input type="text" id="fullName" class="form-control" placeholder="Enter your full name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" class="form-control" placeholder="Enter 10-digit phone number" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" class="form-control" placeholder="Enter your email">
+                </div>
+                
+                <div class="form-group">
+                    <label for="service">Select Service *</label>
+                    <select id="service" class="form-control" required>
+                        <option value="">Choose a service</option>
+                        <option value="Haircut & Styling" data-price="40">Haircut & Styling - ₹40</option>
+                        <option value="Beard Styling" data-price="30">Beard Styling - ₹30</option>
+                        <option value="Hair Coloring" data-price="100">Hair Coloring - ₹100</option>
+                        <option value="Hair Spa" data-price="200">Hair Spa - ₹200</option>
+                        <option value="Head Massage" data-price="80">Head Massage - ₹80</option>
+                        <option value="Facial Kit" data-price="700">Facial Kit - ₹700</option>
+                        <option value="Full Body Massage" data-price="400">Full Body Massage - ₹400</option>
+                        <option value="All Services Package" data-price="1400">All Services Package - ₹1400</option>
+                    </select>
+                    <div class="price-display" id="selectedPrice">Selected Service Price: ₹0</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="date">Select Date *</label>
+                    <input type="date" id="date" class="form-control" required>
+                    <div class="date-note" id="dateNote"></div>
+                </div>
+                
+                <div class="form-group time-slots-container">
+                    <label>Select Time Slot *</label>
+                    <div class="time-info">
+                        <p class="lunch-break-note"><i class="fas fa-info-circle"></i> Lunch Break: 1:30 PM - 2:00 PM (Slots not available)</p>
+                        <p class="friday-note"><i class="fas fa-exclamation-triangle"></i> Friday: 12:00 PM - 2:00 PM (Salon Closed)</p>
+                    </div>
+                    
+                    <div class="time-slot-grid">
+                        <div class="time-column">
+                            <div class="time-header">Morning</div>
+                            <div class="time-row" id="morningSlots">
+                                <!-- Morning slots 9:00 AM - 11:30 AM -->
+                            </div>
+                        </div>
+                        
+                        <div class="time-column">
+                            <div class="time-header">Afternoon</div>
+                            <div class="time-row" id="afternoonSlots">
+                                <!-- Afternoon slots 12:00 PM - 4:30 PM -->
+                            </div>
+                        </div>
+                        
+                        <div class="time-column">
+                            <div class="time-header">Evening</div>
+                            <div class="time-row" id="eveningSlots">
+                                <!-- Evening slots 5:00 PM - 9:30 PM -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Payment Options Section -->
+                <div class="payment-options-section">
+                    <h3><i class="fas fa-credit-card"></i> Payment Method *</h3>
+                    <div class="payment-method-choices">
+                        <div class="payment-method-choice">
+                            <input type="radio" id="cashPayment" name="paymentMethod" value="cash" checked>
+                            <label for="cashPayment" class="payment-label">
+                                <div class="payment-icon">
+                                    <i class="fas fa-money-bill-wave"></i>
+                                </div>
+                                <div class="payment-details">
+                                    <h4>Cash Payment</h4>
+                                    <p>Pay at the salon during your visit</p>
+                                </div>
+                            </label>
+                        </div>
+                        
+                        <div class="payment-method-choice">
+                            <input type="radio" id="onlinePayment" name="paymentMethod" value="online">
+                            <label for="onlinePayment" class="payment-label">
+                                <div class="payment-icon">
+                                    <i class="fas fa-qrcode"></i>
+                                </div>
+                                <div class="payment-details">
+                                    <h4>Online Payment</h4>
+                                    <p>Pay now via QR code</p>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Online Payment Details (Shown when online payment selected) -->
+                    <div class="online-payment-details" id="onlinePaymentDetails">
+                        <div class="qr-payment-container">
+                            <div class="qr-code-main">
+                                <div class="qr-placeholder">
+                                    <i class="fas fa-qrcode"></i>
+                                    <p>Scan QR Code to Pay</p>
+                                    <div class="upi-small"><img src="Paymentt.jpeg" alt="Payment" width="260px">UPI: 7021400700@ybl</div>
+                                </div>
+                            </div>
+                            
+                            <div class="payment-instructions">
+                                <h4><i class="fas fa-mobile-alt"></i> How to Pay:</h4>
+                                <ol>
+                                    <li>Open any UPI app on your phone</li>
+                                    <li>Tap on "Scan QR Code"</li>
+                                    <li>Scan the QR code above</li>
+                                    <li>Enter the amount shown for your service</li>
+                                    <li>Complete the payment</li>
+                                    <li>Take a screenshot of payment confirmation</li>
+                                </ol>
+                                
+                                <div class="form-group" style="margin-top: 20px;">
+                                    <label for="paymentScreenshot">Upload Payment Screenshot *</label>
+                                    <input type="file" id="paymentScreenshot" class="form-control" accept="image/*">
+                                    <small class="file-note">Upload clear screenshot of payment confirmation</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Cash Payment Details (Shown when cash payment selected) -->
+                    <div class="cash-payment-details" id="cashPaymentDetails">
+                        <div class="cash-info">
+                            <div class="cash-icon">
+                                <i class="fas fa-hand-holding-usd"></i>
+                            </div>
+                            <div class="cash-details">
+                                <h4>Cash Payment Instructions</h4>
+                                <p>You can pay in cash when you visit the salon for your appointment. Please bring exact change if possible.</p>
+                                <ul>
+                                    <li>Arrive 10 minutes before your appointment time</li>
+                                    <li>Bring cash for the service amount</li>
+                                    <li>Payment is due at the time of service</li>
+                                    <li>Receipt will be provided after payment</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="admin-contact">
+                    <h4><i class="fas fa-headset"></i> Contact for Confirmation</h4>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <p class="contact-label">WhatsApp for Confirmation</p>
+                                <p class="contact-value">7021400700</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-sms"></i>
+                            <div>
+                                <p class="contact-label">SMS for Booking</p>
+                                <p class="contact-value">7021400700</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="small-note"><i class="fas fa-exclamation-circle"></i> For online payments, send payment screenshot to WhatsApp/SMS for booking confirmation</p>
+                </div>
+                
+                <div style="text-align: center; margin-top: 30px;">
+                    <button type="button" class="btn btn-primary" id="submitBooking" style="padding: 15px 40px; font-size: 1.1rem;">
+                        <i class="fas fa-calendar-check"></i> Submit Booking
+                    </button>
+                </div>
+            </form>
+        </section>
+        
+        <!-- Recent Bookings Section (Visible to all users - View Only) -->
+        <section class="recent-bookings-section" id="recentBookings">
+            <h2 class="section-title">My Recent Bookings</h2>
+            <div class="bookings-notice">
+                <p><i class="fas fa-info-circle"></i> View your recent bookings below. For any changes or cancellations, please contact admin at <strong>7021-400-700</strong></p>
+            </div>
+            <div class="table-container">
+                <table class="user-bookings-table">
+                    <thead>
+                        <tr>
+                            <th>Booking ID</th>
+                            <th>Customer Name</th>
+                            <th>Service</th>
+                            <th>Date & Time</th>
+                            <th>Amount</th>
+                            <th>Payment Method</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="userBookingsTableBody">
+                        <!-- User bookings will be populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="refresh-user-bookings">
+                <div class="phone-lookup">
+                    <input type="tel" id="userPhoneLookup" class="form-control" placeholder="Enter your phone number to view bookings">
+                    <button class="btn btn-primary" id="lookupBookings">
+                        <i class="fas fa-search"></i> Find My Bookings
+                    </button>
+                    <button class="btn btn-secondary" id="refreshUserBookings">
+                        <i class="fas fa-sync-alt"></i> Refresh
+                    </button>
+                </div>
+                <p class="small-note"><i class="fas fa-exclamation-triangle"></i> Note: Users can only view bookings. For cancellations or changes, contact admin.</p>
+            </div>
+        </section>
+        
+        <!-- Admin Login Modal -->
+        <div class="modal" id="adminLoginModal">
+            <div class="modal-content">
+                <span class="close-modal" id="closeLoginModal">&times;</span>
+                <div class="modal-icon">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <h2>Admin Login</h2>
+                <p>Enter admin credentials to access the dashboard</p>
+                
+                <form id="adminLoginForm">
+                    <div class="form-group">
+                        <label for="adminId">Admin ID</label>
+                        <input type="text" id="adminId" class="form-control" placeholder="Enter Admin ID" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="adminPassword">Password</label>
+                        <input type="password" id="adminPassword" class="form-control" placeholder="Enter Password" required>
+                    </div>
+                    
+                    <div class="login-error" id="loginError"></div>
+                    
+                    <div class="modal-buttons">
+                        <button type="button" class="btn btn-secondary" id="cancelLogin">Cancel</button>
+                        <button type="submit" class="btn btn-primary" id="submitLogin">
+                            <i class="fas fa-sign-in-alt"></i> Login
+                        </button>
+                    </div>
+                </form>
+                
+                <div class="login-note">
+                    <p><i class="fas fa-key"></i> Admin Credentials: ID = RashidCraft, Password =****</p>
+                    <p><i class="fas fa-exclamation-triangle"></i> Admin access is restricted. Only authorized personnel can control bookings.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Admin Panel (Hidden - Requires Login) -->
+        <section class="admin-panel" id="adminPanel">
+            <div class="admin-header">
+                <h2 class="section-title" style="margin: 0; font-size: 2rem;">Admin Dashboard</h2>
+                <div class="admin-actions">
+                    <span class="admin-welcome"><i class="fas fa-user-shield"></i> Welcome, Admin</span>
+                    <button class="btn btn-secondary" id="refreshBookings">
+                        <i class="fas fa-sync-alt"></i> Refresh
+                    </button>
+                    <button class="btn btn-secondary" id="addNewMember">
+                        <i class="fas fa-user-plus"></i> Add Member
+                    </button>
+                    <button class="btn btn-secondary" id="exportBookings">
+                        <i class="fas fa-download"></i> Export
+                    </button>
+                    <button class="btn btn-danger" id="logoutAdmin">
+                        <i class="fas fa-sign-out-alt"></i> Logout
+                    </button>
+                </div>
+            </div>
+            
+            <div class="admin-stats">
+                <div class="stat-card">
+                    <h3>Total Bookings</h3>
+                    <p id="totalBookings">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Today's Bookings</h3>
+                    <p id="todayBookings">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Pending Confirmations</h3>
+                    <p id="pendingConfirmations">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Total Revenue</h3>
+                    <p id="totalRevenue">₹0</p>
+                </div>
+            </div>
+            
+            <!-- Add Member Form (Admin Only) -->
+            <div class="add-member-section" id="addMemberSection">
+                <h3><i class="fas fa-user-plus"></i> Add New Salon Member</h3>
+                <form id="addMemberForm">
+                    <div class="member-form-grid">
+                        <div class="form-group">
+                            <label for="memberName">Member Name *</label>
+                            <input type="text" id="memberName" class="form-control" placeholder="Enter member full name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="memberPhone">Phone Number *</label>
+                            <input type="tel" id="memberPhone" class="form-control" placeholder="Enter phone number" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="memberRole">Role *</label>
+                            <select id="memberRole" class="form-control" required>
+                                <option value="">Select Role</option>
+                                <option value="Hair Stylist">Hair Stylist</option>
+                                <option value="Beard Specialist">Beard Specialist</option>
+                                <option value="Massage Therapist">Massage Therapist</option>
+                                <option value="Receptionist">Receptionist</option>
+                                <option value="Manager">Manager</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="memberSalary">Salary (Monthly)</label>
+                            <input type="number" id="memberSalary" class="form-control" placeholder="Enter monthly salary">
+                        </div>
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-save"></i> Add Member
+                        </button>
+                        <button type="button" class="btn btn-secondary" id="cancelAddMember">
+                            Cancel
+                        </button>
+                    </div>
+                </form>
+                
+                <!-- Members List -->
+                <div class="members-list">
+                    <h4>Current Salon Members</h4>
+                    <div class="table-container">
+                        <table class="members-table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Phone</th>
+                                    <th>Role</th>
+                                    <th>Salary</th>
+                                    <th>Join Date</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="membersTableBody">
+                                <!-- Members will be populated by JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bookings Management (Admin Only) -->
+            <div class="bookings-list">
+                <h3><i class="fas fa-calendar-alt"></i> All Bookings Management</h3>
+                <div class="table-container">
+                    <table class="bookings-table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Customer Name</th>
+                                <th>Service</th>
+                                <th>Amount</th>
+                                <th>Date & Time</th>
+                                <th>Phone</th>
+                                <th>Payment</th>
+                                <th>Status</th>
+                                <th>Admin Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="bookingsTableBody">
+                            <!-- Bookings will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2 class="section-title">Our Salon Gallery</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Salon Interior">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Hair Styling">
+                </div>
+                <div class="gallery-item">
+                    <img src="img3.jpeg" alt="Salon Service">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Customer Satisfaction">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Rashid Hair Craft</h3>
+                    <p>Professional hair styling and grooming services by expert stylist Mohd Rashid. We transform your look with precision and care.</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/1AiNcBGx7i/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/rashid_hair_craft_salon?igsh=MW14dnRnNmI5cXdkeQ=="><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/917021400700" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> <span>Karmaini Raunapar Azamgarh 276122</span></li>
+                        <li><i class="fas fa-phone"></i> <span>+91 7021400700</span></li>
+                        <li><i class="fab fa-whatsapp"></i> <span>+91 7021400700 (Booking)</span></li>
+                        <li><i class="fas fa-sms"></i> <span>+91 7021400700 (SMS)</span></li>
+                        <li><i class="fas fa-envelope"></i> <span>rashidhaircraft@example.com</span></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Business Hours</h3>
+                    <ul class="business-hours">
+                        <li><span>Monday - Thursday</span> <span>9:00 AM - 10:00 PM</span></li>
+                        <li><span>Friday</span> <span class="closed">12:00 PM - 2:00 PM CLOSED</span></li>
+                        <li><span>Saturday - Sunday</span> <span>9:00 AM - 10:00 PM</span></li>
+                        <li><span>Lunch Break Daily</span> <span>1:30 PM - 2:00 PM</span></li>
+                    </ul>
+                    <div class="payment-method-footer">
+                        <p><i class="fas fa-money-bill-wave"></i> <i class="fas fa-qrcode"></i> Payment: Cash or Online</p>
+                        <p class="small">Online: Scan QR Code | UPI: 7021400700@ybl</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Rashid Hair Craft Salon. All rights reserved. | Crafted with <i class="fas fa-heart" style="color: #e6a756;"></i> by Mohd Rashid</p>
+                <p class="admin-note"><i class="fas fa-user-shield"></i> Admin: ID = RashidCraft, Password = ****</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <div class="modal-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h2>Booking Submitted Successfully!</h2>
+            <div class="booking-details">
+                <p><strong>Booking ID:</strong> <span id="modalBookingId">#000</span></p>
+                <p><strong>Service:</strong> <span id="modalService">Haircut</span></p>
+                <p><strong>Amount:</strong> <span id="modalAmount">₹0</span></p>
+                <p><strong>Payment Method:</strong> <span id="modalPaymentMethod">Cash</span></p>
+                <p><strong>Date & Time:</strong> <span id="modalDateTime">Today</span></p>
+            </div>
+            <div class="modal-instructions" id="modalInstructions">
+                <!-- Instructions will be inserted here based on payment method -->
+            </div>
+            <div class="modal-buttons">
+                <button class="btn btn-primary" id="modalOkBtn">OK</button>
+                <button class="btn btn-secondary" id="whatsappBtn">
+                    <i class="fab fa-whatsapp"></i> Send on WhatsApp
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="functionstoscript.js"></script>
+</body>
+</html>
